@@ -16,6 +16,11 @@
 		3F83FB8328BE698100569644 /* Primary_ReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83FB8228BE698100569644 /* Primary_ReviewTests.swift */; };
 		3F83FB8D28BE698100569644 /* Primary_ReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83FB8C28BE698100569644 /* Primary_ReviewUITests.swift */; };
 		3F83FB8F28BE698100569644 /* Primary_ReviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83FB8E28BE698100569644 /* Primary_ReviewUITestsLaunchTests.swift */; };
+		3F83FB9D28BE6E8000569644 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83FB9C28BE6E8000569644 /* TableViewController.swift */; };
+		3F83FB9F28BE6F5B00569644 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83FB9E28BE6F5B00569644 /* CollectionViewController.swift */; };
+		3F83FBA128BE6F7A00569644 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83FBA028BE6F7A00569644 /* TabBarViewController.swift */; };
+		3F83FBA428BE6FC200569644 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83FBA328BE6FC200569644 /* Enums.swift */; };
+		3F83FBA628BE6FCD00569644 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F83FBA528BE6FCD00569644 /* Structs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		3F83FB8828BE698100569644 /* Primary-ReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Primary-ReviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F83FB8C28BE698100569644 /* Primary_ReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primary_ReviewUITests.swift; sourceTree = "<group>"; };
 		3F83FB8E28BE698100569644 /* Primary_ReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primary_ReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F83FB9C28BE6E8000569644 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3F83FB9E28BE6F5B00569644 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		3F83FBA028BE6F7A00569644 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		3F83FBA328BE6FC200569644 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		3F83FBA528BE6FCD00569644 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		3F83FB6A28BE697B00569644 /* Primary-Review */ = {
 			isa = PBXGroup;
 			children = (
+				3F83FBA228BE6FA600569644 /* Enum & Structs */,
 				3F83FB9B28BE6C6600569644 /* ViewControllers */,
 				3F83FB6B28BE697B00569644 /* AppDelegate.swift */,
 				3F83FB6D28BE697B00569644 /* SceneDelegate.swift */,
@@ -131,8 +142,20 @@
 			isa = PBXGroup;
 			children = (
 				3F83FB6F28BE697B00569644 /* ViewController.swift */,
+				3F83FB9C28BE6E8000569644 /* TableViewController.swift */,
+				3F83FB9E28BE6F5B00569644 /* CollectionViewController.swift */,
+				3F83FBA028BE6F7A00569644 /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F83FBA228BE6FA600569644 /* Enum & Structs */ = {
+			isa = PBXGroup;
+			children = (
+				3F83FBA328BE6FC200569644 /* Enums.swift */,
+				3F83FBA528BE6FCD00569644 /* Structs.swift */,
+			);
+			path = "Enum & Structs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F83FBA628BE6FCD00569644 /* Structs.swift in Sources */,
+				3F83FB9D28BE6E8000569644 /* TableViewController.swift in Sources */,
 				3F83FB7028BE697B00569644 /* ViewController.swift in Sources */,
 				3F83FB6C28BE697B00569644 /* AppDelegate.swift in Sources */,
 				3F83FB6E28BE697B00569644 /* SceneDelegate.swift in Sources */,
+				3F83FBA428BE6FC200569644 /* Enums.swift in Sources */,
+				3F83FBA128BE6F7A00569644 /* TabBarViewController.swift in Sources */,
+				3F83FB9F28BE6F5B00569644 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
