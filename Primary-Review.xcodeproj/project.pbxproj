@@ -99,9 +99,9 @@
 		3F83FB6A28BE697B00569644 /* Primary-Review */ = {
 			isa = PBXGroup;
 			children = (
+				3F83FB9B28BE6C6600569644 /* ViewControllers */,
 				3F83FB6B28BE697B00569644 /* AppDelegate.swift */,
 				3F83FB6D28BE697B00569644 /* SceneDelegate.swift */,
-				3F83FB6F28BE697B00569644 /* ViewController.swift */,
 				3F83FB7128BE697B00569644 /* Main.storyboard */,
 				3F83FB7428BE698100569644 /* Assets.xcassets */,
 				3F83FB7628BE698100569644 /* LaunchScreen.storyboard */,
@@ -125,6 +125,14 @@
 				3F83FB8E28BE698100569644 /* Primary_ReviewUITestsLaunchTests.swift */,
 			);
 			path = "Primary-ReviewUITests";
+			sourceTree = "<group>";
+		};
+		3F83FB9B28BE6C6600569644 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F83FB6F28BE697B00569644 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
